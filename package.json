@@ -1,0 +1,11 @@
+{
+  "name": "node-mongo-heroku-deployment-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "code-for-coffee,jimbojones1",
+  "license": "MIT"
+}
