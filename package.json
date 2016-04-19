@@ -10,6 +10,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4",
-    "less": "^2.6.1"
+    "less": "^2.6.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mongoose": "^4.4.12"
+
   }
 }
