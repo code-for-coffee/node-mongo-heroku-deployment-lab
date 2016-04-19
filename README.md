@@ -19,7 +19,9 @@ You will need *two* _PaaS_ (Platform as a service) accounts. You should select t
 * Use Heroku (Platform as a Service) to deploy a Node application online.
 * Create a `Procfile` to tell Heroku to run your node app.
 
-## Lab Instructions
+## Lab
+
+#### Getting Started
 
 1. Generate a basic Express application using [express-generate](https://ga-chicago.gitbooks.io/wdi-ravenclaw/content/07_fullstack_node/d04_express.html) (and `git init` if you haven't already).
 2. Create a `db` and `models` folder for your Express project.
@@ -33,7 +35,7 @@ You will need *two* _PaaS_ (Platform as a service) accounts. You should select t
 10. In your `.env` file, add a **key** called `DB_HOST` with an empty value. Such value may appear as... `DB_HOST=`.
 11. Add and commit. If you have not added a `remote` to your Git repository yet, you should do so now. Typically you would `git remote add name-of-remote git_url_here` to do so.
 
-## Connecting to a Remote Database
+#### Hosting MongoDB on mlab and using it
 
 1. Browse to https://mlab.com and login.
 2. Select **Create New** ... ![mlab_1.png](mlab_1.png)
@@ -61,7 +63,7 @@ You will need *two* _PaaS_ (Platform as a service) accounts. You should select t
 25. Run `npm start` (or `nodemon`) to run your server.
 26. Browse to `localhost:3000/tacos` - what do you see? If you don't see an empty `[]` of 0 objects, something went wrong. Otherwise, good job!
 
-## Wrapping it up with Heroku
+#### Heroku Deployment
 
 1. Heroku will allow a user to deploy 5 free proejcts. Log in.
 2. Download/install the [Heroku toolbelt](https://toolbelt.heroku.com/).
