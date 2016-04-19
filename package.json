@@ -7,5 +7,10 @@
     "test": "mocha"
   },
   "author": "code-for-coffee,jimbojones1",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mongoose": "^4.4.12"
+  }
 }
