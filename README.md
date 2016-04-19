@@ -14,9 +14,10 @@ You will need *two* _PaaS_ (Platform as a service) accounts. You should select t
 
 * Generate an Express application to serve to the internet.
 * Add Mongoose Models and a Database connection to your Express application.
-* Use the *environment variables* and `dotenv` module to hide important data (such as your _connection string_) from public eyes.
+* Use the *environment variables* with `.env` & `dotenv` module to hide important data (such as your _connection string_) from public eyes.
 * Use MLab (Database as a Service) to host a production ready MongoDB Database online.
 * Use Heroku (Platform as a Service) to deploy a Node application online.
+* Create a `Procfile` to tell Heroku to run your node app.
 
 ## Lab Instructions
 
